@@ -1,7 +1,0 @@
-NOTES
-
-- Go through and add required advance warning times for various voting.
-- Petition or Decision by ACM Council
-- Impeachment rules
-- ACM Council meeting phases
-
