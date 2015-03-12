@@ -1,6 +1,16 @@
 \documentclass[12pt,titlepage]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage{listings}
+\usepackage{draftwatermark}
+\usepackage{datetime}
+\usepackage{fancyhdr}
+
+\SetWatermarkText{DRAFT}
+\SetWatermarkScale{4}
+
+\fancyhf{}
+\fancyhead[C]{\today\ \currenttime}
+\pagestyle{fancy}
 
 \begin{document}
 
@@ -117,7 +127,7 @@ If the Treasurer is no longer capable of fulfilling the duties of the office of 
 \\
 Any officer replacement can be overridden by any member who produces a petition with the signatures of at least 10 members or 10\% of the membership, whichever is smaller, for the ACM Council. The action nullifies the appointment and triggers standard election procedure for that position as described by section 4.1.4 with the election meeting taking place no sooner than one week from the date of the petition's submission and notification of the meeting being sent out within 12 hours of the meeting being scheduled.
 
-\paragraph{Impeachment Process}
+\subsubsection{Impeachment Process}
 
 To initiate the impeachment process a member must present the Council with a petition to remove an Officer from the Officer's position containing the signatures of at least 20\% of the members.\\
 \\
@@ -134,11 +144,11 @@ The vote will be a Standard Vote of the Members as described in section 5 with t
 
 \subsection{Secretaries}
 
-Secretary positions in the ACM exist to carry out and help enforce Decisions (section 6) made by the Officers and the Council as well as assist in the day to day management of the organization.\\
+Secretary positions in the ACM exist to carry out and help enforce Decisions (section 6) made by the ACM Council as well as assist in the day to day management of the organization.\\
 \\
-Officers may grant a Secretary position to an interested member in good standing of the organization at any time. In order for this Secretary to be appointed the individual must be willing to accept one or more of the official Tasks defined in the Official Task Pool.\\
+Officers may grant a Secretary position to an interested member in good standing of the organization at any time. In order for this Secretary to be appointed the individual must be willing to accept one or more of the official Tasks defined in the official Task Pool.\\
 \\
-All Tasks accepted by the new Secretary will become that secretaries responsibility and said Secretary will be held accountable for them being carried out and for regularly updating the Council on actions taken in relation to said Tasks.\\
+All Tasks accepted by the new Secretary will become that secretaries responsibility and said Secretary will be held accountable for them being carried out and for regularly updating the ACM Council on actions taken in relation to said Tasks.\\
 \\
 Each Secretary position should be granted a name by the Officers that is relevant to the Tasks assigned to that Secretary. As Tasks are assigned and unassigned the name may be changed by the Officers.
 
@@ -281,7 +291,7 @@ Any member of the ACM in good standing may start a Special Interest Group.\\
 \\
 If a SIG holds no meetings for two consecutive weeks during the fall or spring semester, a Decision (section 6) may be passed to dissolve the SIG. The SIG may be restarted by the same process as starting a new SIG.\\
 \\
-SIGs are not expected to hold meetings during any of the summer semesters nor over winter break.
+SIGs are not expected to hold meetings during any of the summer semesters nor any day that the University is not holding classes. 
 
 \subsection{Starting a Special Interest Group}
 
@@ -293,7 +303,7 @@ An Unofficial SIG becomes an Official SIG immediately after it holds at least on
 
 \section{Amendments}
 
-Amendments to this document may be proposed by any member who submits a petition to the ACM Council containing at least 10 signatures or the signatures of at least 10\% of the members of the ACM.\\
+Amendments to this document may be proposed by any member who submits a petition to the ACM Council containing at least 10 signatures or the signatures of at least 10\% of the members of the ACM, whichever is smaller.\\
 \\
 After the petition is submitted this will trigger a Standard Vote of the Members as described in section 5 with the following addendums:
 \begin{itemize}
